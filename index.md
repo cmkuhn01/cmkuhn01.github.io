@@ -4,8 +4,9 @@
 
 ### Neural Network Modeling
 
+<img src="images/thumbnail_bikeshare.jpg?raw=true"/>(/sample_page)  
 [Linear Regression and Neural Nets: Korean Bike Share](/sample_page)
-<img src="images/thumbnail_bikeshare.jpg?raw=true"/>
+
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
