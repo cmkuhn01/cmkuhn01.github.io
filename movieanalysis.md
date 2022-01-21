@@ -1,7 +1,7 @@
 ## Python Analysis: Movie Profitability
 
 For this project, I analyzed a dataset on 7,668 movies from the years 1980 to 2020 to determine which category of movies tends to have the highest return on investment.  Specifically, I looked at which combination of genre and country of production had the highest return on investment, a) for high-budget movies and b) for low-budget movies.  I analyzed high- and low-budget movies separately because I was curious to see whether the ROIs would vary much between these two groups and because some genres, such as action movies, might not be profitable without having a large budget.  Based on the analysis, for high-budget movies, UK Adventure movies can be expected to have the greatest ROI. For low-budget movies, US Horror movies can be expected to have the greatest ROI. The ROI of low-budget US Horror movies is typically much greater than the ROI of high-budget UK Adventure movies.  25% of the low-budget US Horror films had an ROI of between 3.5 and 17 (i.e. 350% and 1700%), and another 25% had an ROI between 17 and 37.5!   
-[Dataset](https://www.kaggle.com/danielgrijalvas/movies) | [Jupyter Notebook](https://github.com/cmkuhn01/PortfolioProjects/blob/main/PythonStats_MovieAnalysis.ipynb)
+[Dataset](https://www.kaggle.com/danielgrijalvas/movies) | [Jupyter Notebook](https://github.com/cmkuhn01/cmkuhn01.github.io/blob/main/PythonStats_MovieAnalysis.ipynb)
 
 
 ### 1. Data Preparation
