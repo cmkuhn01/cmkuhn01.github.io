@@ -1,8 +1,8 @@
-title: Christine Kuhn 
+title: <center>Christine Kuhn</center> 
 logo: "/images/Picture2.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
 
-                      <a href="https://www.linkedin.com/in/christine-kuhn-72a45825/">View My LinkedIn Profile</a> 
+ <center><a href="https://www.linkedin.com/in/christine-kuhn-72a45825/">View My LinkedIn Profile</a></center> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
