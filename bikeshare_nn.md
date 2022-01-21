@@ -29,7 +29,13 @@ Deeper neural networks allow for more nonlinearities to be captured by the model
   
 The predicted values and actual values of bike rentals were compared for each model: linear regression, best single-hidden-layer neural net, and best two-hidden-layer neural net.  As shown in the plots below, the two-hidden-layer neural net performed the best in terms of predicting the shape of the distribution and the range of the distribution.  The linear regression model and single-hidden-layer model were both unable to predict the higher values of bike rentals; however, the single-hidden-layer was much better than the linear regression model in predicting the overall shape and spread of the distribution of hourly rentals.  This is also evidenced in the residuals histograms, where the peak is much narrower for the two-hidden-layer model than for the linear regression model.
   
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/bike3models_actualandpredicted.png?raw=true"/>  
+
+<img src="images/bike3models_actualvspredicted.png?raw=true"/>  
+
+<img src="images/bike3models_residuals.png?raw=true"/>
+
+
 
 ### 3. Conclusions
 
