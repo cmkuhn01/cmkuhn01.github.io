@@ -1,7 +1,7 @@
 ## Linear Regression and Neural Nets: Korean Bike Share
 
 In this project, I analyzed a dataset on Seoul bike sharing demand to determine whether the included data could be used to predict how many bikes are rented during a particular hour of a particular day.  I fit the data using linear regression, a single-hidden-layer neural net, and various two-hidden-layer neural nets.  The best RMSE achieved was 283 bikes.  This RMSE is high compared to the typical usage December through March, but small compared to typical usage during the rest of the year.  Future work could explore the effects of varying the number of nodes in the neural net layers or of using a different type of activation layer in the neural nets.  Alternatively, an initial objective could be to predict the number of bikes rentals per day, week, or month.  Considering that the available data only covers a single year, achieving a very good fit on a very fine resolution might not actually improve the quality of future predictions.  If the data are available, year-to-year variation should be explored.  
-[Dataset](https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand) | [MATLAB Code]
+[Dataset](https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand) | [MATLAB Code](LinRegAndNN_KoreanBikeshare.pdf)
 
 
 ### 1. Data Preparation
