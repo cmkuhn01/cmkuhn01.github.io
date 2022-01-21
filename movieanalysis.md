@@ -33,7 +33,10 @@ Additionally, the U.S. Horror films had the highest median and highest maximum r
   
 Almost all low-budget US Horror films had ROIs below 20 until 2010. ROI distribution for low-budget US Horror films is overall higher for the 2010-2020 range than for 1980-2010. Since 2010, only 3 data points in the low-budget US Horror category had negative ROIs. For low-budget Comedies and Dramas, the range of ROIs is also greater for 2010-2020 than for 1980-2010. However, there remain many data points with negative ROIs for Comedy and Drama in 2010-2020.  
 
-<img src="images/bike3models_residuals.png?raw=true"/>
+<img src="images/ROIsvsyear.png?raw=true"/>  
+  
+<img src="images/ROIsvsyeargenre.png?raw=true"/>  
+  
 
 **Correlation with other factors was considered:**  
   
