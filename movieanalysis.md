@@ -21,11 +21,11 @@ Scatterplots were made of total revenue vs. budgets of the high-budget movies, w
   
 The return on investment (ROI) was calculated as the difference between the gross revenue and the budget, divided by the budget.  For each combination of genre and country within the high-budget subset, the mean, standard deviation, maximum, and minimum ROI were calculated. Of the high-budget movies, U.K. Adventure movies had the highest mean ROI, but they also had a high standard deviation.  The ROIs for each combination of country and genre were plotted in boxplots for a more thorough comparison.  Each quartile bound of the U.K. Adventure movies was higher than that of the other genre-country categories.  The number of samples in UK Adventure is small (only 19), but they seem to be consistently successful relative to the other groups. The median ROI for UK Adventure movies is 3.2, with the middle 50% of ROIs being between 1.5 and 4.8.  The maximum ROI for UK Adventure movies is 9.8.  Based on this analysis, for high-budget movies, U.K. Adventure movies tend to have the highest ROI.   
   
-<img src="images/bike3models_actualandpredicted.png?raw=true"/>  
+<img src="images/movies_highbudgetROIs.png?raw=true"/>  
   
 The same analysis approach was used for the low-budget movie dataset.  Again, no obvious trends appeared in the plots of total revenue vs. budget with the points color-coded by country or genre.  The ROI was calculated for each movie, and the mean, standard deviation, maximum, and minimum ROI were calculated for each combination of genre and country within the low-budget movies subset.  U.S. Horror movies had the highest mean ROI at 12.3 and the highest maximum ROI at 100.8.  U.K. Comedy movies also had high mean and maximum ROIs: 10.7 and 72.7, respectively.  The standard deviation in ROI for U.S. Horror movies was similar to that of U.K. Comedy movies.  The data were plotted in boxplots for a closer look.  In the boxplots, the trends become much clearer: U.S. Horror movies tend to have a much higher ROI than U.K. Comedies.  Of all of the genre-country combinations within the low-budget dataset, U.S. Horror was the only combination were less than 25% of movies had negative ROIs.   
 
-<img src="images/bike3models_actualvspredicted.png?raw=true"/>  
+<img src="images/movies_lowbudgetROIs.png?raw=true"/>  
 
 Additionally, the U.S. Horror films had the highest median and highest maximum relative to each of the other low-budget categories.  75% of the low-budget U.S. Horror movies had an ROI of at least 1 (i.e. profit was at least as much as investment), 25% had an ROI between 3.5 and 17 (i.e. 350% and 1700%), and another 25% had an ROI between 17 and 37.5.  
   
