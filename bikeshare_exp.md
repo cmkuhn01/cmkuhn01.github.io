@@ -43,14 +43,14 @@ Answers to the following questions would add value to the existing data and allo
 
 ### 4. Analysis
 
-Linear Regressions with Solar Radiation as the Only Input  
+**Linear Regressions with Solar Radiation as the Only Input**  
 First, because the plot of the solar radiation levels per hour is similar in shape to the plot of the hourly bike rentals, I ran a linear regression of the hourly rentals on the hourly solar radiation level.  This resulted in a very poor fit, with an R-squared value of 0.07.  
 A linear regression of the 1-day maximum rentals on the 1-day maximum solar radiation resulted in a better fit, with an R-squared value of 0.41, and the linear regression of the 7-day maximum rentals on the 7-day maximum solar radiation yielded an R-squared value of 0.66.
 
-Linear Regressions with Three Inputs  
+**Linear Regressions with Three Inputs**  
 Next, the 7-day maximum temperature and 7-day mean humidity were incorporated, so that the linear regression of the 7-day maximum rentals was a function of the 7-day maximum solar radiation, 7-day maximum temperature, and 7-day mean humidity.  This fit resulted in an R-squared value of 0.79 and an RMSE of 448.  As shown in the plot below, the trends are generally predicted, though the actual distribution is smoother than the predicted distribution during most months, and the large dip in rentals between July and September is not represented in the predicted distribution.  
 
-Linear Regressions with All Inputs  
+**Linear Regressions with All Inputs**  
 The linear regression of the raw hourly bike rental counts as a function of all inputs yielded an R-squared value of 0.55.  Six additional regressions were run on the smoothed data, where both the inputs and the outputs used in each regression were smoothed by taking the 1-day average, 1-day maximum, 7-day average, 7-day maximum, 30-day average, or 30-day maximum, respectively.  Below is a table of the resulting R-squared values and RMSE values.  
 
 |  Input & Output Smoothing | R-squared |     RMSE     |
