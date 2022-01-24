@@ -13,19 +13,19 @@ The columns of the raw dataset were the date (in year-month-day format), count o
 
 A scatter plot of the original output data (the number of bikes rented per hour) yields a very spiky distribution, with much lower values in December and April than in the rest of the year.  
   
-<a href="images/bikeshare_rawcounts.png"><img src="images/bikeshare_rawcounts.png?raw=true"/></a>    
+<a href="images/bikeshare_rawcounts.png"><img src="images/bikeshare_rawcounts.png?raw=true" width="508"/></a>    
 
 I expanded the scale of the x-axis by subdividing the data into several separate plots.  The resulting plots show a seven-day pattern of five days each with a peak in the morning and another peak in the evening, followed by two days each with a single, smaller peak in the afternoon.  The five days with two peaks per day were weekdays, and the two days with one peak per day were weekends.  For each weekly subset, the magnitudes of the peaks were similar for all five workdays within the week.  
   
-<a href="images/bikeshare_6mo1.png"><img src="images/bikeshare_6mo1.png?raw=true"/></a>  
+<a href="images/bikeshare_6mo1.png"><img src="images/bikeshare_6mo1.png?raw=true" width="508"/></a>  
   
 I calculated and plotted the rolling one-day average, 7-day average, 30-day hourly, one-day maximum, 7-day maximum, 30-day maximum hourly bike rentals. The average rentals could be enough to predict weekly or monthly revenue, assuming the rental fee is a constant.  The maximum rentals per hour could be more important than the average rentals if the focus is ensuring that enough capacity will be available.  The 1-day average rentals is much smoother than the hourly data, but still has sharp spikes.  The lower-resolution curves of the 7-day average or 30-day average hourly bike rentals are likely much easier to model than the original hourly counts.    
    
- <a href="images/bikeshare_avg.png"><img src="images/bikeshare_avg.png?raw=true"/></a>  <a href="images/bikeshare_max.png"><img src="images/bikeshare_max.png?raw=true"/></a>  
+ <a href="images/bikeshare_avg.png"><img src="images/bikeshare_avg.png?raw=true" width="508"/></a>  <a href="images/bikeshare_max.png"><img src="images/bikeshare_max.png?raw=true" width="508"/></a>  
    
 To get a sense of the distribution of data within each input variable, I created a scatter plot of each variable versus time.  To investigate possible explanations for the sharper spikes in the raw and 1-day averaged rental data, I plotted the 1-day average and 1-day maximum alongside the rainfall, snowfall, holiday, and functional day data.  The non-functional days and spring/summer rainfall days seem to be correlated with the spikier portions of the 1-day average and 1-day maximum bike rental distribution.  
   
-<a href="images/bikeshare_rain.png"><img src="images/bikeshare_rain.png?raw=true"/></a>  
+<a href="images/bikeshare_rain.png"><img src="images/bikeshare_rain.png?raw=true" width="508"/></a>  
 
 
 ### 3. Clarifying Questions
@@ -53,7 +53,7 @@ A linear regression of the 1-day maximum rentals on the 1-day maximum solar radi
 **Linear Regressions with Three Inputs**  
 Next, the 7-day maximum temperature and 7-day mean humidity were incorporated, so that the linear regression of the 7-day maximum rentals was a function of the 7-day maximum solar radiation, 7-day maximum temperature, and 7-day mean humidity.  This fit resulted in an R-squared value of 0.79 and an RMSE of 448.  As shown in the plot below, the trends are generally predicted, though the actual distribution is smoother than the predicted distribution during most months, and the large dip in rentals between July and September is not represented in the predicted distribution.  
   
-<a href="images/bikeshare_7day_3var.png"><img src="images/bikeshare_7day_3var.png?raw=true"/></a>  
+<a href="images/bikeshare_7day_3var.png"><img src="images/bikeshare_7day_3var.png?raw=true" width="508"/></a>  
 
 **Linear Regressions with All Inputs**  
 The linear regression of the raw hourly bike rental counts as a function of all inputs yielded an R-squared value of 0.55.  Six additional regressions were run on the smoothed data, where both the inputs and the outputs used in each regression were smoothed by taking the 1-day average, 1-day maximum, 7-day average, 7-day maximum, 30-day average, or 30-day maximum, respectively.  Below is a table of the resulting R-squared values and RMSE values.  
@@ -72,7 +72,7 @@ A plot of the linear regression coefficients for each of these fits shows signif
 
 Below are the plots of the two regressions with the lowest RMSEs found in this analysis: the 7-day average hourly rentals as a function of all of the 7-day averaged input variables, and the 30-day average hourly rentals as a function of all of the 30-day averaged inputs.  These regressions would be valuable in estimating the weekly or monthly revenue.  
 
-<a href="images/bikeshare_7avg_all.png"><img src="images/bikeshare_7avg_all.png?raw=true"/></a>  <a href="images/bikeshare_30avg_all.png"><img src="images/bikeshare_30avg_all.png?raw=true"/></a>  
+<a href="images/bikeshare_7avg_all.png"><img src="images/bikeshare_7avg_all.png?raw=true" width="508"/></a>  <a href="images/bikeshare_30avg_all.png"><img src="images/bikeshare_30avg_all.png?raw=true" width="508"/></a>  
 
 
 ### 5. Future Work  
