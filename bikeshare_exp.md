@@ -25,7 +25,7 @@ I calculated and plotted the rolling one-day average, 7-day average, 30-day hour
    
 To get a sense of the distribution of data within each input variable, I created a scatter plot of each variable versus time.  To investigate possible explanations for the sharper spikes in the raw and 1-day averaged rental data, I plotted the 1-day average and 1-day maximum alongside the rainfall, snowfall, holiday, and functional day data.  The non-functional days and spring/summer rainfall days seem to be correlated with the spikier portions of the 1-day average and 1-day maximum bike rental distribution.  
   
-<a href="images/bikeshare_rain.png"><img src="images/bikeshare_rain.png?raw=true" width="508"/></a>  
+<a href="images/bikeshare_spikes.png"><img src="images/bikeshare_spikes.png?raw=true" width="508"/></a>  
 
 
 ### 3. Clarifying Questions
