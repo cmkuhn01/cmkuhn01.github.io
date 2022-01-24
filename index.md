@@ -2,10 +2,11 @@
 
 ---
 
-### Neural Network Modeling
+### Regression & Neural Network Modeling
 
 <a href="/bikeshare_nn.html"><img src="images/thumbnail_bikeshare.jpg?raw=true"/></a>  
-[Linear Regression and Neural Nets: Korean Bike Share](/bikeshare_nn.html)
+[1. Data Exploration and Linear Regressions: Korean Bike Share](/bikeshare_exp.html)  
+[2. Linear Regression and Neural Nets: Korean Bike Share](/bikeshare_nn.html)
 
 
 ---
