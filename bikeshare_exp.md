@@ -1,7 +1,7 @@
 ## Data Exploration and Linear Regressions: Korean Bike Share
 
 In this project, I plotted a 14-column dataset about Seoul bike share rentals to understand the distributions of the independent variables as well as the distribution of the number of bike rentals.  I also generated several linear regressions using different subsets of input variables and using the moving-average and moving-maximum of bike rentals.  While the linear regressions did not yield a good fit for the number of bikes rented per hour, the one-day average, 7-day average, 30-day average, one-day max, 7-day max, and 30-day max rentals were all very well-approximated using linear regression.   
-[Dataset](https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand) | [MATLAB Code](LinRegAndNN_KoreanBikeshare.pdf)
+[Dataset](https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand) | [MATLAB Code](DataExploration_KoreanBikeshare.pdf)
 
 
 ### 1. Data Preparation
