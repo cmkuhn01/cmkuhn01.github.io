@@ -48,6 +48,7 @@ Answers to the following questions would add value to the existing data and allo
 
 **Linear Regressions with Solar Radiation as the Only Input**  
 First, because the plot of the solar radiation levels per hour is similar in shape to the plot of the hourly bike rentals, I ran a linear regression of the hourly rentals on the hourly solar radiation level.  This resulted in a very poor fit, with an R-squared value of 0.07.  
+  
 A linear regression of the 1-day maximum rentals on the 1-day maximum solar radiation resulted in a better fit, with an R-squared value of 0.41, and the linear regression of the 7-day maximum rentals on the 7-day maximum solar radiation yielded an R-squared value of 0.66.
 
 **Linear Regressions with Three Inputs**  
