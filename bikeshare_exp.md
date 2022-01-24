@@ -67,12 +67,18 @@ The linear regression of the raw hourly bike rental counts as a function of all 
 | 7-Day Maximum | 0.88 | 346 |
 | 30-Day Average | 0.97  | 54  |
 | 30-Day Maximum | 0.95 | 220 | 
-
+  
+  
 A plot of the linear regression coefficients for each of these fits shows significant variation in the value of each coefficient across the 7 regressions and significant variation in the trends of which factors are dominant in each regression.  This could be because of collinearities in the input variables.  It could also be a result of the smoothing (averaging or taking the maximum) having a significantly different impact on the distribution of each variable.  
+  
+<a href="images/bikeshare_coeffs.png"><img src="images/bikeshare_coeffs.png?raw=true" width="508"/></a>  
 
 Below are the plots of the two regressions with the lowest RMSEs found in this analysis: the 7-day average hourly rentals as a function of all of the 7-day averaged input variables, and the 30-day average hourly rentals as a function of all of the 30-day averaged inputs.  These regressions would be valuable in estimating the weekly or monthly revenue.  
 
-<a href="images/bikeshare_7avg_all.png"><img src="images/bikeshare_7avg_all.png?raw=true" width="508"/></a>  <a href="images/bikeshare_30avg_all.png"><img src="images/bikeshare_30avg_all.png?raw=true" width="508"/></a>  
+<a href="images/bikeshare_7avg_all.png"><img src="images/bikeshare_7avg_all.png?raw=true" width="508"/></a>  
+  
+   
+<a href="images/bikeshare_30avg_all.png"><img src="images/bikeshare_30avg_all.png?raw=true" width="508"/></a>  
 
 
 ### 5. Future Work  
